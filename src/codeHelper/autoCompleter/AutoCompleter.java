@@ -58,7 +58,9 @@ public class AutoCompleter {
 						}
 						//Formats the string, ready to be replaced. Also looks for \| to find where to place the caret
 						String formatted = MessageFormat.format(AutoCompletes.completes[i+1], args.toArray());
-						int caretRelative = formatted.indexOf("\\|") - formatted.length() + 2;
+						int caretIndex = formatted.indexOf("\\|");
+						//If caret pos not specified, put at end
+						int caretRelative = (caretIndex == -1 ? formatted.length() : caretIndex) - formatted.length() + 2;
 						formatted = formatted.replaceFirst("\\\\\\|", "");
 						//Over write the text
 						editor.getPdeTextArea().overwriteSetSelectedText(formatted);
