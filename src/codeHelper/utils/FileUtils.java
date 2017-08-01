@@ -11,6 +11,7 @@ public class FileUtils {
 	
 	public static File baseDir = new File("CodeCompleter");
 	
+	//Makes sure the file exists. If not, creates it with the lines specified.
 	public static int assertExists(String dirName, String fileName, String[] lines){
 		try{
 			File dir = new File(baseDir, dirName);
@@ -32,6 +33,7 @@ public class FileUtils {
 		return -1;
 	}
 	
+	//Reads a file and returns the lines as an array
 	public static String[] getLines(String dirName, String fileName){
 		File dir = new File(baseDir, dirName);
 		dir.mkdirs();
