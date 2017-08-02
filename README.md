@@ -28,7 +28,7 @@ Run the tool from the tools menu. That's it! You can now use the tool.
 
 ## Info
 
-Tested on Windows only
+Tested on Windows only  
 Tested with Processing 3.3.5
 
 Last update: 02/08/2016
