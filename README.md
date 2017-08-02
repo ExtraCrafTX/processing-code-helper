@@ -1,5 +1,7 @@
 This is a tool that adds several neat features to speed up programming in the Processing IDE.
 
+## Modules
+
 ### BracketCloser:
 
 1. Closes brackets and quotation marks automatically.
@@ -7,10 +9,32 @@ This is a tool that adds several neat features to speed up programming in the Pr
 
 ### AutoCompleter:
 
-1. Can auto complete by pressing tab.
+1. Press tab to auto complete!
 2. AutoCompletes can be modified in a file for customisation.
 
-### Examples:
+## Installation and use
 
-First run the tool from the tools menu. Then, type in "setup" and press tab. The tool will create the setup method for you! This works with any method name.
-You can also, for example, select some text and hit left bracket. The text will automatically be wrapped!
+### How to install:
+
+1. Download a release from the releases tab.
+2. Extract the folder from the zip file into your tools folder.
+
+### How to use:
+
+Run the tool from the tools menu. That's it! You can now use the tool.  
+1. Brackets and quotes are automatically closed!
+2. Select some text and open a bracket or quote to wrap the text!
+3. Press tab to auto complete!
+
+## Info
+
+Tested on Windows only
+Tested with Processing 3.3.5
+
+Last update: 02/08/2016
+
+### Credit:
+
+Inspired from SpeedTool by Lars Kaltenbach.
+I saw that it was not working with Processing 3 and really needed something like that. It's annoying to have to close brackets all the time :p  
+The code for the BracketCloser is very similar to the original code from SpeedTool.
