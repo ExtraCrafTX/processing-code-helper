@@ -16,7 +16,8 @@ This is a tool that adds several neat features to speed up programming in the Pr
 
 ### How to install:
 
-1. Download a release from the releases tab.
+1. Download a release from the releases tab
+(or [here](http://kaamiljasani.com/processing-code-helper/), but it might not always be the latest release).
 2. Extract the folder from the zip file into your tools folder.
 
 ### How to use:
