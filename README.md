@@ -27,7 +27,7 @@ Run the tool from the tools menu. That's it! You can now use the tool.
 2. Select some text and open a bracket or quote to wrap the text!
 3. Press tab to auto complete!
 
-Refer to the [wiki](wiki) for more information.
+Refer to the [wiki](https://github.com/ExtraCrafTX/processing-code-helper/wiki) for more information.
 
 ## Info
 
